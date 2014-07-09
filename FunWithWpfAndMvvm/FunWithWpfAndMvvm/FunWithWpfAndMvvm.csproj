@@ -61,7 +61,18 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ChildView.xaml.cs">
+      <DependentUpon>ChildView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ChildViewModel.cs" />
+    <Compile Include="ConventionalDialogService.cs" />
+    <Compile Include="IDialogService.cs" />
     <Compile Include="ShellViewModel.cs" />
+    <Compile Include="WindowMode.cs" />
+    <Page Include="ChildView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ShellView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

@@ -8,7 +8,7 @@ namespace FunWithWpfAndMvvm
         {
             base.OnStartup(e);
 
-            var shellView = new ShellView();
+            var shellView = new ShellView {DataContext = new ShellViewModel(new ConventionalDialogService())};
             shellView.Show();
         }
     }
