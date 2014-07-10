@@ -1,2 +1,2 @@
-fun-with-wpf-and-mvvvm
+fun-with-wpf-and-mvvm
 ======================
